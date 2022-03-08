@@ -7,11 +7,17 @@ A library that implements the abstract CBUS base class. It contains methods to s
 Note that this library depends on a number of other libraries which must also be downloaded and included in the sketch:
 
 CBUS 			- abstract CBUS base class
+
 ACAN_t4		    - FlexCAN Controller class
+
 CBUSswitch
+
 CBUSLED
+
 CBUSconfig
+
 Streaming		- C++ style output
+
 
 ## Hardware
 
