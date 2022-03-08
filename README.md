@@ -7,7 +7,7 @@ A library that implements the abstract CBUS base class. It contains methods to s
 Note that this library depends on a number of other libraries which must also be downloaded and included in the sketch:
 
 CBUS 			- abstract CBUS base class
-ACAN_t4		- concrete implentation of the CBUS class using the MCP2515 controller
+ACAN_t4		    - FlexCAN Controller class
 CBUSswitch
 CBUSLED
 CBUSconfig
