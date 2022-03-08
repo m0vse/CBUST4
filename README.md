@@ -1,13 +1,13 @@
 <img align="right" src="arduino_cbus_logo.png"  width="150" height="75">
 
-# Arduino library for MERG CBUS running over CAN bus
+# Teensy 4.x library for MERG CBUS running over CAN bus
 
-A library that implements the abstract CBUS base class. It contains methods to support the MCP2515/25625 CAN controller IC
+A library that implements the abstract CBUS base class. It contains methods to support the FlexCAN ports within Teensy 4.x 
 
 Note that this library depends on a number of other libraries which must also be downloaded and included in the sketch:
 
 CBUS 			- abstract CBUS base class
-ACAN2515		- concrete implentation of the CBUS class using the MCP2515 controller
+ACAN_t4		- concrete implentation of the CBUS class using the MCP2515 controller
 CBUSswitch
 CBUSLED
 CBUSconfig
@@ -15,7 +15,7 @@ Streaming		- C++ style output
 
 ## Hardware
 
-Currently supports the MCP2515 and MCP25625 CAN controller ICs via the ACAN2515 library
+Currently supports the Teensy 4.x FlexCAN modules via the ACAN_t4 library
 
 ## Documentation
 
